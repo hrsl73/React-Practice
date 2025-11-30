@@ -18,9 +18,12 @@ function App() {
   }
 
   let decreaseValue = () =>{
+
+    if (counter>=1){
     counter = counter -1
     console.log("value decreased!")
     setCounter(counter)
+    }
   }
 
   let resetValue = () =>{
