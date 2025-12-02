@@ -13,6 +13,7 @@ function App() {
       <br></br>
       <Card username="Harshil" btnText="click here"/>
       <Card username="XYZ" btnText="visit here"/>
+      <Card username="XYZ"/>
 
       
     </>
