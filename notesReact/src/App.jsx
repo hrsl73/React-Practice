@@ -65,7 +65,7 @@ const App = () => {
                 
                 <div>
                   <h3 className='leading-tight  font-bold text-xl'>{ele.heading}</h3>
-                  <p className='mt-4 leading-tight  font-medium text-gray-500'>{ele.details}</p>
+                  <p className='mt-2 leading-tight text-xs  font-semibold text-gray-600'>{ele.details}</p>
                 </div>
                   <button 
                   onClick={()=>{
