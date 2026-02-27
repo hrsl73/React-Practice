@@ -1,4 +1,3 @@
-import React from 'react'
 import { MoveUpRight } from 'lucide-react';
 
 function Arrow() {

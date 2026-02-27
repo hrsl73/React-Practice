@@ -1,12 +1,12 @@
-import React from 'react'
 import LeftContent from './LeftContent'
 import RightContent from './RightContent'
 
-function Page1Content() {
+function Page1Content(props) {
+    
     return (
-        <div className="h-[90vh] py-10 px-12 gap-10 flex items-center">
+        <div className="h-[90vh] pb-16 pt-6 px-12 gap-10 flex items-center">
             <LeftContent/>
-            <RightContent/>
+            <RightContent users={props.users}/>
         </div>
     )
 }

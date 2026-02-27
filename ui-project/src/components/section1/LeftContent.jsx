@@ -1,5 +1,3 @@
-import React from 'react'
-
 import HeroText from './HeroText';
 import Arrow from './Arrow';
 
