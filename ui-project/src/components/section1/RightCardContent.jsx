@@ -12,7 +12,7 @@ function RightCardContent(props) {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti officiis reprehenderit pariatur voluptas minus quisquam.
                     </p>
                     <div className="flex item-center justify-between gap-1">
-                        <button style={{backgroundColor:props.color}} className=' text-white font-medium px-8 py-2 rounded-full text-md text-gray-600'>{props.tag}</button>
+                        <button style={{backgroundColor:props.color}} className=' text-white font-medium px-8 py-2 rounded-full text-md'>{props.tag}</button>
                         <button style={{backgroundColor:props.color}} className='text-white font-medium px-4 py-2 rounded-full text-md flex items-center justify-center'><MoveRight/></button>
                     </div>
                 </div>
