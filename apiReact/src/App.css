@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+}
+
+.parent {
+    display: flex;
+    color:white;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
+    padding: 20px;
+    scrollbar-width: none;
+}
+
+.parent img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+.parent::-webkit-scrollbar {
+    display: none; /* Chrome */
+}
+
+button{
+    background-color: white;
+}
