@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+
+.light{
+    display: flex;
+    background-color: lightseagreen;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+}
+.dark{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    background-color: darkseagreen;
+}
+
+.nav2{
+    display: flex;
+    gap: 30px;
+}
